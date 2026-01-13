@@ -12,7 +12,7 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (pin === '1234') { // PIN Padrão para o protótipo
+    if (pin === '1540') { // PIN Padrão para o protótipo
       onLogin(pin);
     } else {
       setError(true);
