@@ -5,10 +5,11 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   define: {
-    // Isso permite que o código use process.env.API_KEY no navegador
-    'process.env.API_KEY': JSON.stringify(process.env.API_KEY)
+    // Garante que o process.env.API_KEY esteja disponível no código do lado do cliente
+    'process.env.API_KEY': JSON.stringify(process.env.API_KEY || '')
   },
   build: {
     outDir: 'dist',
+    sourcemap: false
   }
 });
