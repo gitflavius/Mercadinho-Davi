@@ -1,0 +1,7 @@
+{
+  "name": "GrocyManager AI - Mercadinho Davi",
+  "description": "An intelligent grocery management system with integrated inventory tracking, customer debt management, and AI-powered business insights.\n\nOnde pode-se inicialmente  fazer cadastro e acompanhamento da tabela fiado e com o decorrer será incrementado",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
